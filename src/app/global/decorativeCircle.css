@@ -1,0 +1,11 @@
+.decorative-circle {
+  position: absolute;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, var(--circle-color, #5dcde3), transparent);
+  opacity: 0.5;
+  z-index: -1;
+
+  /* Máscara para hacer el centro transparente */
+  -webkit-mask-image: radial-gradient(circle, transparent 40%, black 41%);
+  mask-image: radial-gradient(circle, transparent 40%, black 41%);
+}
