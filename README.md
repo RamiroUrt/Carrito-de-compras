@@ -27,7 +27,7 @@ npm run dev
 La app estará disponible en: http://localhost:3000
 
 ```
-##🧩 Funcionalidades
+## 🧩 Funcionalidades
 ✅ Backend (API)
 GET /api/products: Devuelve una lista estática de productos.
 
@@ -35,7 +35,7 @@ POST /api/cart: Agrega un producto al carrito (en memoria).
 
 GET /api/cart: Devuelve los productos agregados al carrito.
 
-##✅ Frontend
+## ✅ Frontend
 Visualización de productos con imagen, nombre y precio.
 
 Botón "Agregar al carrito" para cada producto.
@@ -46,7 +46,7 @@ Función que permite calcular la mejor combinación de productos sin exceder un 
 
 Botón para refrescar la combinación aleatoriamente.
 
-##🧠 Lógica de combinación
+## 🧠 Lógica de combinación
 Se implementó una función findBestCombination(products, budget) que:
 
 Encuentra todas las combinaciones posibles sin superar el presupuesto.
